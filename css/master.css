@@ -1,0 +1,65 @@
+#c_name{
+  font-family: 'Arimo', sans-serif;
+}
+#c_moto{
+  font-size: 25px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+}
+.tex{
+  font-size: 95px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+}
+.tex1{
+  font-size: 65px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.moto{
+  font-size: 35px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.materialboxed{
+  height: 500px;
+  width: 500px;
+}
+#random li {
+  opacity: 0;
+}
+#img-edit{
+  height: 200px;
+  width: 200px;
+}
+#random1 li {
+  opacity: 0;
+}
+#p_vid{
+  display: absolute;
+}
+#p_img{
+  display: none;
+}
+
+@media handheld, screen and (max-width: 700px) {
+  .tex, .tex1{
+    font-size: 45px;
+  }
+  #c_moto{
+    font-size: 15px;
+  }
+  #p_vid{
+    display: none;
+  }
+  #p_img{
+    display: inline;
+  }
+  .moto{
+    font-size: 20px;
+  }
+
+}

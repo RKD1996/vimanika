@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Drone Services</title>
+  <link rel="stylesheet" href="../css/master.css">
+  <link href="https://fonts.googleapis.com/css?family=Arimo|Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</head>
+  <body>
+    <!--navigation bar menu on screen-->
+    <div class="navbar-fixed">
+      <nav style="background-color:#0d46a3;">
+        <div class="nav-wrapper">
+          <div class="container">
+
+
+            <a href="../index.html" id="c_name" class="brand-logo"> <b> <u>Vimanika</u> </b> </a>
+            </div>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li ><a href="../index.html"><i class="material-icons left">home</i>Home</a></li>
+              <li ><a href="technology.html"><i class="material-icons left">settings_remote</i>Technology</a></li>
+              <li ><a href="gallery.html"><i class="material-icons left">picture_in_picture</i>Gallery</a></li>
+              <li ><a href="drone_services.html"><i class="material-icons left">android</i>Drone Services</a></li>
+              <li ><a href="team.html"><i class="material-icons left">supervisor_account</i>Team</a></li>
+              <li class="active"><a href="contact.html"><i class="material-icons left">contact_mail</i>Contact</a></li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+      <ul class="side-nav" id="mobile-demo"><!--side navbar menu-->
+        <li><a href="../index.html"><i class="material-icons left">home</i>Home</a></li>
+        <li ><a href="technology.html"><i class="material-icons left">settings_remote</i>Technology</a></li>
+        <li ><a href="gallery.html"><i class="material-icons left">picture_in_picture</i>Gallery</a></li>
+        <li ><a href="drone_services.html"><i class="material-icons left">android</i>Drone Services</a></li>
+        <li ><a href="team.html"><i class="material-icons left">supervisor_account</i>Team</a></li>
+        <li class="active"><a href="contact.html"> <i class="material-icons left">contact_mail</i> Contact</a></li>
+      </ul>
+      <!--contact info-->
+      <h1 id="c_name" class="center">Contact Us</h1><br><br>
+      <div class="row container">
+    <form action="https://formspree.io/rishi90kesh@gamil.com" method="post"><!--API For Contact verify the mail Address TO let it work first thing-->
+      <method="POST" class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="first_name" type="text" name="name" class="validate"><!--input name-->
+          <label for="first_name">Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <input type="email" name="email"><!--input Email-->
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+         <textarea name="message" class="materialize-textarea"></textarea><!--input query-->
+          <label for="textarea1">Textarea</label>
+        </div>
+      </div>
+        <button type="submit" class="btn">Submit</button><!--submit button-->
+  </div>
+    </form>
+  </div>
+  <!--footer-->
+  <div style="background-color:#0d46a3; color:white;" class="col s6 center">
+    <h4>Vimānika AeroSpace</h4>
+    <p>2973, Sector-23 Gurugram, 122017 INDIA</p>
+    <i class="fa fa-mobile fa-fw"></i>+91 981 020-2808 <br>
+    <i class="fa fa-mobile fa-fw"></i>+91 971 112-2820 <br>
+    <i class="fa fa-envelope-o fa-fw"></i><a href="mailto:info@Vimānika.in">info@Vimānika.in</a><br><br>
+    <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a><a href="https://twitter.com/Vimanika_Aero"><i class="fa fa-twitter fa-fw fa-3x"></i></a><br>
+    <hr class="my-4">
+    <p class="text-muted">Copyright &copy; Vimānika AeroSpace 2017</p>
+  </div>
+      <script src="../lib/all.js"></script><!--jquery file address-->
+  </body>
+</html>
